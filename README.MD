@@ -1,3 +1,15 @@
+**Интстукция по запуску**
+
+Запуск проекта `php composer.phar install`
+
+Сгенирировать тестовые данные `php user_text_util.php comma seed` или `php user_text_util.php semicolon seed`
+
+Запуск тестов `./vendor/bin/phpunit`
+
+Запус утилиты `php user_text_util.php comma countAverageLineCount` или `php user_text_util.php semicolon replaceDates`
+
+**Тестовое задание**
+
 В файле ./people.csv хранится информация о пользователях в CSV формате. В первом поле id пользователя (целое без знака), во втором его имя (строка текста). Пример строки в файле: 1;Sergey Dorohov
 
 Есть папка ./texts, в которой хранятся тексты, связанные с пользователями. Имена файлов имеют формат id-n.txt, где n - номер файла, дополненный нулями слева до 4 символов (например, для пользователя с id=1 в папке может быть два файла: 1-001.txt, 1-002.txt)
