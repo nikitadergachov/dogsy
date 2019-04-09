@@ -1,0 +1,37 @@
+{
+  "name": "nikitadergachov/dogsy",
+  "description": "Dogsy test work",
+  "license": "MIT",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Nikita Dergachov",
+      "email": "nikitadergachov@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "prefer-stable": true,
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "require": {
+    "php": "^7.1.3",
+    "vlucas/phpdotenv": "^3.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "7.*"
+  },
+  "autoload": {
+    "files": [
+      "user_text_util.php"
+    ],
+    "psr-4": {
+      "Dogsy\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests"
+    }
+  }
+}
