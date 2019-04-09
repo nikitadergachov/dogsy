@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace Dogsy\Services;
 
 
-use Dogsy\Entity\Text;
-use Dogsy\Entity\User;
+use Dogsy\Entities\Text;
+use Dogsy\Entities\User;
 use Dogsy\Helpers\FileHelper;
 use Dogsy\Repositories\TextRepository;
 use Dogsy\Repositories\UserRepository;

@@ -6,8 +6,8 @@ namespace Dogsy\Factories;
 
 
 use Dogsy\Exceptions\CreateModelException;
-use Dogsy\Entity\AbstractEntity;
-use Dogsy\Entity\User;
+use Dogsy\Entities\AbstractEntity;
+use Dogsy\Entities\User;
 
 /**
  * Class UserFactory

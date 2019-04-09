@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Dogsy\Entity;
+namespace Dogsy\Entities;
 
 
 use Dogsy\Repositories\FileTextRepository;

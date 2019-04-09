@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Dogsy\Repositories;
 
 
-use Dogsy\Entity\Text;
+use Dogsy\Entities\Text;
 use Dogsy\Exceptions\CreateModelException;
 use Dogsy\Factories\TextFactory;
 use Dogsy\Helpers\FileHelper;

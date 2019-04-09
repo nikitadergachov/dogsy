@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Dogsy\Factories;
 
 
-use Dogsy\Entity\AbstractEntity;
+use Dogsy\Entities\AbstractEntity;
 
 interface Factory
 {

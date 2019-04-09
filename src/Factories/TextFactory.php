@@ -3,8 +3,8 @@
 namespace Dogsy\Factories;
 
 
-use Dogsy\Entity\AbstractEntity;
-use Dogsy\Entity\Text;
+use Dogsy\Entities\AbstractEntity;
+use Dogsy\Entities\Text;
 use Dogsy\Exceptions\CreateModelException;
 
 /**

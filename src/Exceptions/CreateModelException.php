@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Dogsy\Exceptions;
 
 
-use Dogsy\Entity\AbstractEntity;
+use Dogsy\Entities\AbstractEntity;
 use Exception;
 
 class CreateModelException extends Exception

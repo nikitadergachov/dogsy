@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Dogsy\Entity;
+namespace Dogsy\Entities;
 
 
 class Text extends AbstractEntity
